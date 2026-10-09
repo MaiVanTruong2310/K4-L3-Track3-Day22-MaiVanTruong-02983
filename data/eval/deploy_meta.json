@@ -1,0 +1,13 @@
+{
+  "compute_tier": "BIGGPU",
+  "base_model": "unsloth/Qwen3-8B-unsloth-bnb-4bit",
+  "adapter": "adapters/dpo",
+  "quantization": "q4_k_m",
+  "sample_prompt": "Giải thích ngắn gọn (3 câu) cách thuật toán Bubble sort hoạt động.",
+  "sample_output": "Thuật toán Bubble Sort hoạt động bằng cách lặp lại quá trình so sánh và hoán đổi các phần tử liền kề trong danh sách. Nó lặp lại quá trình này cho đến khi không còn cần hoán đổi nào, nghĩa là danh sách đã được sắp xếp. Trong mỗi lần lặp, các phần tử lớn hơn sẽ \"bong lên\" đến vị trí đúng của chúng, giống như bong bóng nổi lên bề mặt.",
+  "tokens": {
+    "prompt_tokens": 29,
+    "completion_tokens": 93,
+    "total_tokens": 122
+  }
+}

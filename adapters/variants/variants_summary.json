@@ -1,0 +1,36 @@
+{
+  "dpo": {
+    "eval_reward_accuracy": 0.55,
+    "eval_chosen_reward": 0.11579412603750824,
+    "eval_rejected_reward": 0.10197965511120856,
+    "mean_output_chars": 332.35,
+    "diagnosis": "FAILURE"
+  },
+  "rpo": {
+    "eval_reward_accuracy": 0.59,
+    "eval_chosen_reward": 0.43868693843483925,
+    "eval_rejected_reward": 0.4031051774322987,
+    "mean_output_chars": 358.5,
+    "diagnosis": "INTENDED"
+  },
+  "dpo_norm": {
+    "eval_reward_accuracy": 0.545,
+    "eval_chosen_reward": -0.11892435971647501,
+    "eval_rejected_reward": -0.12017732944339514,
+    "mean_output_chars": 347.8,
+    "diagnosis": "FAILURE"
+  },
+  "ld_dpo": {
+    "eval_reward_accuracy": 0.625,
+    "eval_chosen_reward": -0.07081013659946621,
+    "eval_rejected_reward": -0.1305177845992148,
+    "mean_output_chars": 347.95,
+    "diagnosis": "LIKELIHOOD DISPLACEMENT"
+  },
+  "orpo": {
+    "start": "/content/lab22/models/sft-merged",
+    "eval_reward_accuracy": 0.675000011920929,
+    "eval_log_odds_ratio": -0.628075361251831,
+    "mean_output_chars": 334.2
+  }
+}
